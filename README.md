@@ -4,7 +4,7 @@
 
 **nmap** for scanning and **xsltproc** for XLS for HTML conversion are required. They're installed automatically on operating systems using **apt**, **dnf**, or **zypper**. For other systems, you have to install the missing component if needed.
 
-The target can be a domain name, an IP address or an IP addresses range.
+The target can be a **domain name**, an **IP address** or an **IP address range**.
 
 # Usage
 
@@ -25,7 +25,7 @@ Scan an IP address
 ./netscanreport.sh 45.33.32.156
 ```
 
-Scan an IP addresses range
+Scan an IP address range
 ```
 ./netscanreport.sh 192.168.1.1/24
 ```
