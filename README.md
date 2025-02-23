@@ -1,6 +1,6 @@
 # Description
 
-**netscanreport** scans a server for analyzing **open ports**, **TLS certificates** and **vulnerabilities**. It generates a **reports** in **XML** and **HTML**.
+**netscanreport** scans a server for analyzing **open ports**, **TLS certificates** and **vulnerabilities**. It generates 2 **reports** in **XML** and **HTML**.
 
 **nmap** for scanning and **xsltproc** for XLS for HTML conversion are required. They're installed automatically on operating systemsusing **apt**, **dnf**, or **zypper**. For other systems, you have to install the missing component if needed.
 
