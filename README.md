@@ -17,17 +17,17 @@ sudo chmod +x netscanreport.sh
 ## Scanning
 Scan a domain name
 ```
-./netscanreport.sh scanme.nmap.org
+sudo ./netscanreport.sh scanme.nmap.org
 ```
 
 Scan an IP address
 ```
-./netscanreport.sh 45.33.32.156
+sudo ./netscanreport.sh 45.33.32.156
 ```
 
 Scan an IP address range
 ```
-./netscanreport.sh 192.168.1.1/24
+sudo ./netscanreport.sh 192.168.1.1/24
 ```
 
 The report is saved in **XML** in **/root/nmapreports** and converted in **HTML** in the same folder (which will be created automatically if it doesn't exist yet)
