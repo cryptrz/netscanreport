@@ -14,7 +14,7 @@ The target can be a domain name, an IP address or an IP addresses range.
 sudo chmod +x netscanreport.sh
 ```
 
-# Scanning
+## Scanning
 Scan a domain name
 ```
 ./netscanreport.sh scanme.nmap.org
@@ -30,4 +30,4 @@ Scan an IP addresses range
 ./netscanreport.sh 192.168.1.1/24
 ```
 
-The report is saved in XML in /root/nmapreports and converted in HTML in the same folder (which will be created automatically if it doesn't exist yet)
+The report is saved in **XML** in **/root/nmapreports** and converted in **HTML** in the same folder (which will be created automatically if it doesn't exist yet)
